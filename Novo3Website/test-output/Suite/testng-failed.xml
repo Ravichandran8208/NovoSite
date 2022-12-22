@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.novo.testcases.TC_131127_VerifyFontPropInSec6">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="postCondition"/>
+          <include name="setValues"/>
+          <include name="startReport"/>
+          <include name="runVerifyFontPropInSec6"/>
+          <include name="preCondition"/>
+          <include name="endResult"/>
+          <include name="stopTestCase"/>
+        </methods>
+      </class> <!-- com.novo.testcases.TC_131127_VerifyFontPropInSec6 -->
+      <class name="com.novo.testcases.TC_131116_VerifyHomePageContentFontProperties">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="postCondition"/>
+          <include name="startReport"/>
+          <include name="runVerifyHomePageContentFontProperties"/>
+          <include name="setValues"/>
+          <include name="preCondition"/>
+          <include name="endResult"/>
+          <include name="stopTestCase"/>
+        </methods>
+      </class> <!-- com.novo.testcases.TC_131116_VerifyHomePageContentFontProperties -->
+      <class name="com.novo.testcases.TC_131112_verifyOffsiteLinksContentIcon">
+        <methods>
+          <include name="setValues"/>
+          <include name="startTestCase"/>
+          <include name="runverifyOffsiteLinksContentIcon" invocation-numbers="0"/>
+          <include name="postCondition"/>
+          <include name="startReport"/>
+          <include name="preCondition"/>
+          <include name="endResult"/>
+          <include name="stopTestCase"/>
+        </methods>
+      </class> <!-- com.novo.testcases.TC_131112_verifyOffsiteLinksContentIcon -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
